@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --bg-dark: rgb(25,25,25);
+}
 
 *{
     margin: 0;
@@ -6,9 +12,10 @@
     box-sizing: border-box;
 }
 
+/* SEÇÃO HEADER */
 .header{
     width: 100%;
-    background-color: rgb(25,25,25);
+    background-color: var(--bg-dark);
     color: white;
     width: 100%;
     top: 0;
@@ -17,6 +24,7 @@
     padding-left: 6%;
     padding-right: 6%;
     font-family: "Plus Jakarta Sans", sans-serif;
+    border-bottom: 0.3px solid white;
 }
 
 .header nav{
@@ -35,4 +43,58 @@
     color: white;
     padding: 20px;
     font-size: 12px;
+}
+
+/* SEÇÃO WELCOME */
+
+.welcome{
+    width: 100%;
+    background-color: var(--bg-dark);
+    color: white;
+    display: flex;
+}
+
+.welcome__text{
+    width: 50%;
+    padding-left: 5%;
+    height: 80vh;
+    padding-top: 7%;
+}
+
+.welcome__text h1{
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.welcome__text p{
+    color: rgb(140, 140, 140);
+    margin-top: 2%;
+}
+
+.welcome__text a{
+    margin-top: 4%;
+    display: flex;
+    text-decoration: none;
+    width: 30%;
+}
+
+.welcome__text a button{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 8vh;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.welcome__img{
+    width: 50%;
+    background-image: url('images/pexels-goumbik-574071.jpg');
+    background-size: cover;
+    filter: grayscale(50%);
 }
