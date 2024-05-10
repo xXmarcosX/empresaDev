@@ -502,4 +502,177 @@
         font-weight: bold;
     }
     
+    .equipe__membros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 5%;
+    }
+    
+    .equipe__membros__card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        border: 2px solid rgb(231, 234, 238);
+        border-radius: 10px 10px 10px;
+        height: 65vh;
+    }
+    
+    .equipe__membros__card__img{
+        width: 75%;
+        margin-top: 2%;
+        height: 30vh;
+        border-radius: 10%;
+        background-image: url('images/gigachad.jpg');
+        background-size: cover;
+    }
+    
+    .equipe__membros__card__nome{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        border-bottom: 2px solid rgb(231, 234, 238);
+        padding-bottom: 3%;
+        width: 80%;
+    }
+    
+    .equipe__membros__card__nome p{
+        color: rgb(19, 85, 255);
+    }
+    
+    .equipe__membros__card__social{
+        margin-right: 60%;
+        margin-top: 5%;
+    }
+    
+    .equipe__membros__card__social ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .projetos h2{
+        font-size: 42px;
+    }
+
+    .projetos p{
+        text-align: left;
+        justify-content: left;
+        width: 80%;
+    }
+
+    .projetos__imgs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        margin-top: 12%;
+    }
+    
+    .projetos__imgs__img{
+        width: 100%;
+    }
+    
+    .projetos__imgs__img img{
+        width: 85%;
+        height: 30vh;
+    }
+    
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 7%;
+        background-color: rgb(10, 20, 47);
+        color: white;
+        padding-top: 5%;
+        height: 100vh;
+    }
+    .footer__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #4F4F4F;
+        padding-bottom: 3%;
+        gap: 20px;
+    }
+    
+    .footer__text__future{
+        color: rgb(157, 161, 172);
+        font-family: "DM Sans", sans-serif;
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer__text__button{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(0, 129, 254);
+        width: 28%;
+        margin-top: 2%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: "DM Sans", sans-serif;
+        font-size: 13px;
+        height: 6vh;
+        padding-bottom: 2%;
+        border-radius: 20px;
+    }
+
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__nav__logo{
+        margin-top: 5%;
+    }
+
+    .footer__nav__links{
+        margin-top: 10%;
+    }
+    .footer__nav__links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer__nav__social{
+        margin-top: 10%;
+    }
+    .footer__nav__social ul{
+        display: flex;
+        padding-top: 3%;
+        gap: 20px;
+    }
+
+    .footer__nav__social img{
+        width: 80%;
+    }
 }
