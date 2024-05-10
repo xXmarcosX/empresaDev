@@ -676,3 +676,167 @@
         width: 80%;
     }
 }
+
+/* RESPONSIVIDADE TABLET */
+@media (min-width: 813px) and (max-width: 1190px){
+    .header{
+        text-align: center;
+        padding-top: 4.5%;
+    }
+
+    .header__img{
+        display: block;
+    }
+
+    .welcome{
+        height: 60vh;
+    }
+
+    .welcome__text{
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .welcome__text p{
+        font-size: 24px;
+        margin-top: 15%;
+    }
+    
+    .welcome__text a{
+        width: 70%;
+    }
+    
+    .welcome__text a button{
+        margin-left: 34%;
+    }
+    
+    .welcome__img{
+        display: none;
+    }
+
+    .services__tech{
+        width: 100%;
+    }
+    
+    .services__tech__card{
+        width: 40%;
+        height: 35vh;
+    }
+    
+    .services__tech__card h3{
+        font-size: 24px;
+    }
+    
+    .services__tech__card p{
+        color: #4F4F4F;
+        font-weight: bold;
+    }
+    
+    .equipe__membros{
+        width: 100%;
+        display: flex;
+    }
+
+    .equipe__membros p{
+        font-size: 18px;
+    }
+    
+    .equipe__membros__card{
+        width: 40%;
+        height: 55vh;
+    }
+    
+    .equipe__membros__card__img{
+        height: 25vh;
+    }
+    
+    .equipe__membros__card__nome p{
+        color: rgb(19, 85, 255);
+        font-size: 20px;
+    }
+    
+    .equipe__membros__card__nome h3{
+        font-size: 23px;
+    }
+
+    .equipe__membros__card__social ul{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .equipe__membros__card__social a{
+        width: 100%;
+    }
+
+    .equipe__membros__card__social img{
+        width: 100%;
+        height: 5vh;
+    }
+
+    .projetos h2{
+        font-size: 54px;
+    }
+
+    .projetos p{
+        font-size: 24px;
+    }
+    
+    .footer__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #4F4F4F;
+        padding-bottom: 3%;
+        gap: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .footer__text__button{
+        width: 20%;
+        height: 4vh;
+        padding-top: 2%;
+    }
+
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__nav__logo{
+        margin-top: 5%;
+        width: 20%;
+    }
+    
+    .footer__nav__logo img{
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .footer__nav__links{
+        margin-top: 10%;
+    }
+    .footer__nav__links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer__nav__social{
+        margin-top: 10%;
+    }
+    .footer__nav__social ul{
+        display: flex;
+        padding-top: 3%;
+        gap: 20px;
+    }
+
+    .footer__nav__social img{
+        width: 80%;
+    }
+}
