@@ -681,7 +681,14 @@
 @media (min-width: 813px) and (max-width: 1190px){
     .header{
         text-align: center;
-        padding-top: 4.5%;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        padding-bottom: 2%;
+    }
+
+    nav{
+        text-align: center;
     }
 
     .header__img{
@@ -689,7 +696,8 @@
     }
 
     .welcome{
-        height: 60vh;
+        height: auto;
+        padding-bottom: 4%;
     }
 
     .welcome__text{
