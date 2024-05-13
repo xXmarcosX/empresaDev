@@ -491,6 +491,7 @@
         margin-top: 2%;
         height: 45vh;
         border-radius: 0px 0px 25px 25px;
+        border: 2px solid rgb(231, 234, 238);
     }
     
     .services__tech__card h3{
@@ -648,6 +649,8 @@
     .footer__nav{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: auto;
     }
 
     .footer__nav__logo{
@@ -656,15 +659,23 @@
 
     .footer__nav__links{
         margin-top: 10%;
+        width: 80%;
     }
     .footer__nav__links ul{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding-right: 4%;
         gap: 12px;
     }
 
     .footer__nav__social{
         margin-top: 10%;
+        width: 100%;
+        padding-right: 4%;
     }
     .footer__nav__social ul{
         display: flex;
