@@ -220,9 +220,33 @@
     margin-top: 2%;
     height: 30vh;
     border-radius: 10%;
-    background-image: url('images/gigachad.jpg');
     background-size: cover;
 }
+
+.arthur{
+    background-image: url('https://github.com/Thurtux.png');
+}
+
+.maia{
+    background-image: url('images/maia.jpeg');
+    padding-bottom: 25%;
+}
+
+.marcos{
+    background-image: url('images/marcola.jpeg');
+    padding-bottom: 25%;
+}
+
+.nicolas{
+    background-image: url('images/nicolas.jpeg');
+    padding-bottom: 25%;
+}
+
+.mikael{
+    background-image: url('images/mikael.jpeg');
+    padding-bottom: 25%;
+}
+
 
 .equipe__membros__card__nome{
     display: flex;
