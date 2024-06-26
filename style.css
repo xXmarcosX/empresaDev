@@ -231,6 +231,9 @@
     background-image: url('images/maia.jpeg');
     padding-bottom: 25%;
 }
+.rodrigues{
+    background-image: url('images/lucas-rodrigues1.jpg');
+}
 
 .marcos{
     background-image: url('images/marcola.jpeg');
@@ -552,6 +555,34 @@
         height: 65vh;
     }
     
+    .arthur{
+        background-image: url('https://github.com/Thurtux.png');
+    }
+    
+    .maia{
+        background-image: url('images/maia.jpeg');
+        padding-bottom: 25%;
+    }
+    .rodrigues{
+        background-image: url('images/lucas-rodrigues1.jpg');
+    }
+    
+    .marcos{
+        background-image: url('images/marcola.jpeg');
+        padding-bottom: 25%;
+    }
+    
+    .nicolas{
+        background-image: url('images/nicolas.jpeg');
+        padding-bottom: 25%;
+    }
+    
+    .mikael{
+        background-image: url('images/mikael.jpeg');
+        padding-bottom: 25%;
+    }
+    
+
     .equipe__membros__card__img{
         width: 75%;
         margin-top: 2%;
@@ -799,6 +830,34 @@
         width: 40%;
         height: 55vh;
     }
+
+    .arthur{
+        background-image: url('https://github.com/Thurtux.png');
+    }
+    
+    .maia{
+        background-image: url('images/maia.jpeg');
+        padding-bottom: 25%;
+    }
+    .rodrigues{
+        background-image: url('images/lucas-rodrigues1.jpg');
+    }
+    
+    .marcos{
+        background-image: url('images/marcola.jpeg');
+        padding-bottom: 25%;
+    }
+    
+    .nicolas{
+        background-image: url('images/nicolas.jpeg');
+        padding-bottom: 25%;
+    }
+    
+    .mikael{
+        background-image: url('images/mikael.jpeg');
+        padding-bottom: 25%;
+    }
+    
     
     .equipe__membros__card__img{
         height: 25vh;
